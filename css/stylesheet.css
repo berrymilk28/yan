@@ -1,0 +1,317 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: '游ゴシック体';
+  }
+  
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+  
+header {
+  background-color: rgba(45, 53, 54, 0.9);
+  color: white;
+  height: 65px;
+}
+
+  .header-logo {
+    float : left;
+    font-family: '游明朝体';
+}
+
+  .header-logo img {
+    height: 65px;
+  }
+  
+  header .clear {
+    clear: right;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 20px;
+  display: none !important;
+}
+
+  .header-list li{
+    color: white;
+    float: left;
+    line-height: 65px;
+    padding: 0px 25px;
+    font-family: '游ゴシック体';
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+    width: 147px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .header-list li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0px 25px;
+    color: white;
+    display: block;
+    text-decoration: none;
+  }
+
+
+
+  .container {
+    padding: 0 15px;
+    margin-left: 30px;
+    margin-right: auto;
+  }
+
+  .top-wrapper {
+    padding-top: 180px;
+    padding-bottom:  100px;
+    background-image: url(../picture/top.jpg);
+    color: white;
+    background-size: cover;
+  }
+
+  .top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 3px;
+  }
+
+  .top-wrapper p {
+    opacity: 0.7;
+  }
+
+  main.fa {
+    margin-right: 5px;
+  }
+
+  .btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 7px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .reply {
+    background-color: #239b76;
+  }
+
+  .amazonList{
+    background-color: rgb(241, 201, 120);
+    margin-right: 10px;
+  }
+
+  .ofuse {
+    background-color: #336699;
+  }
+
+  .btn-wrapper {
+    margin: 20px 0px;
+  }
+
+  .btn-wrapper p {
+    margin: 10px 0px;
+  }
+
+
+  .container span {
+    color :#99CC99;
+  }
+
+  .contents {
+    margin-top : 100px;
+    margin-bottom: 200px;
+    padding : 20px 80px;
+    color: #5f5d60;
+  }
+
+  .contents h3 {
+    font-weight: normal;
+  }
+
+  .section-title{
+    border-bottom : 2px solid #dee7ec;
+    font-size : 28px;
+    padding-bottom : 15px;
+    margin-bottom : 50px;
+    text-align: center;
+  }
+
+  .contents-item {
+    float : left;
+    width: 33%;
+    text-align : center;
+    display: block;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .title-contents {
+    font-size : 20px;
+    margin-top : 30px;
+  }
+
+  .contents-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .contents-item img{
+    width : 175px;
+    border-radius: 15px;
+    margin : 20px 0px;
+  }
+
+  .contents-item a{
+    color: #5f5d60;
+  }
+
+  .txt-contents {
+    width: 70%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    color: #b3aeb5;
+  }
+
+
+
+  .contact-form {
+    margin-top: 100px;
+    padding : 20px 80px;
+    color: #5f5d60;
+    text-align: center;
+  }
+
+  .contact-form span{
+    color: #a1a1a1;
+  }
+
+  .contact-form h3 {
+    font-weight: normal;
+  }
+
+  input, textarea{
+    width : 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  .contact-submit {
+    background: #dee7ec;
+    color: #889eab;
+    cursor: pointer;
+    box-shadow: 0 7px #d5d6d5;
+  }
+  
+  .contact-submit:active {
+    box-shadow:none;
+    position: relative;
+    top: 7px;
+  }
+
+  .thanks-message {
+    margin: 150px 0px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .display-contact {
+    width: 70%;
+    margin: 0px auto;
+    padding: 50px;
+    background-color: #F5F5F5;
+    color: #333;
+  }
+
+  .top-back {
+    background-color: #F5F5F5;
+    color: #333;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    margin:50px auto;
+    line-height: 65px;
+    display: block;
+    transition: all 0.5s;
+  }
+
+  .top-back:hover {
+    background-color: #dadada;
+  }
+
+  .reply-back {
+    background-color: #F5F5F5;
+    color: #333;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    margin:50px auto 200px auto;
+    line-height: 65px;
+    display: block;
+    transition: all 0.5s;
+  }
+
+  .reply-back:hover {
+    background-color: #dadada;
+  }
+  
+  .footer {
+    background-color: #233523;
+    color : #fff;
+    padding : 40px;
+  }
+
+  .footer-logo {
+    font-size : 32px;
+    font-family: '游明朝体';
+    float : left;
+    margin-right: 60px;
+    padding-bottom: 100px
+  }
+
+  .footer-list {
+    font-family: '游ゴシック体';
+    margin-left: 100px;
+  }
+
+  .footer-list li {
+    padding-bottom : 15px;
+  }

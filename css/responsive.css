@@ -1,0 +1,46 @@
+
+
+@media (max-width: 1000px) {
+  
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
+  }
+
+  .contents-item {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
+  }
+  
+  .contents-item {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  .btm {
+    width: 100%
+  }
+
+  .amazonList {
+    margin-bottom: 10px
+  }
+
+  
+}
